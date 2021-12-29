@@ -167,3 +167,86 @@ Task
          - justify-content
          - flex-direction
          - flex-flow
+
+### media quires
+
+- Extra small devices (Mobiles)
+      - max-width:600px
+- small devices (Large phones)
+      - min-width:600px
+      - 768
+- medium devices(small laptaps)
+      - min-width:768px
+- Large devices (Large laptops or desktops)
+      - min-width:992px
+- extra large devices()
+      - min-width:1200px
+
+
+...
+@media only screen(max-width:320px) and (max-width:500px)
+  css code
+
+
+  ### Bootstrap4.6
+
+  - it is a css framework
+  Task3:
+  ======
+      
+      - navbar with responsive
+
+  - module(collections of functions and classes)
+  - package (collection of modules)
+  - library ( collection of packages)
+  - framework(collection of library)
+  +  module --> package --> library --> Framework
+
+
+  + Type of modes
+     - offline
+     - online
+          - CDN links
+
+  + background-color - bg
+  + text-white
+
+
+  + margin in bootstrap(m-* (0.5))
+     - 0 --> 0rem
+     - 1 --> 0.25rem(4px)
+     - 2 --> o.5rem(8px)
+     - 3 --> 1rem(16px)
+     - 4 --> 1.5rem(24px)
+     - 5 --> 3rem(48px)
+     - m(margin in all directions)
+     - ml-5(margin-left)
+     - mt(margin-top)
+     - mb(margin-bottom)
+     - mr(margin-right)
+  + padding (padding-left --> p1-5)  
+
+  + colors
+     - primary
+     - secondary
+     - info
+     - success
+     - warning
+     - danger
+     - light
+     - dark
+     - white
+
+
+  + we can use color classes for
+     - buttons(btn btn-primary)
+     - text(text-white)
+     - background(bg-secondary)
+     - alerts(alert alert-primary)         
+  + Grid system
+    - sm (small devices)
+    - md (medium devices)
+    - lg(large devices)
+    - xl(extra large devices)
+
+    
