@@ -248,5 +248,157 @@ Task
     - md (medium devices)
     - lg(large devices)
     - xl(extra large devices)
++ Modal
++ Table
 
+
+#### Javascript
+
++ In 1995 'brenden eich' introduced Javascript(ES-262)
++ Javascript loosely toupled and dynamic language
++ It is a text-based programming language and
+  we can run in clint-side and serverside (node.js) for
+  dynamic web applications
+- ECMA-script (ES-6)
+     - let & constant
+     - map()
+     - arrow function
+     - classes
+     - spread operator
+     - rest operator
++ datatypes
+    - Number
+    - bigInt(2^53-1)
+    - string
+    - boolean
+    - undefine
+    - Null
+    - object
+    - array
     
++ variable
+    - var,let & const
+    - scope
+        - function level --> var
+        - block level  --> let & const
+    - redifine (IT IS POSSIBLE ONLY BY var and let)
+    - Redeclare(only var)
+
++ 'typeof()'
++ object
+
+,,,
+
+{
+      name:"kalyan"
+}
+
+,,,
+
++ Array
+
+
+### Alerts
+
++ To generate notifications
+    - alerts
+    - prompt(to take input from the user)
+    - confirm
+
++ console statement
+    - 'console.log()'
+    - 'console.warn()'
+    - 'console.info()'
+    - `console.error()`
+
++ spread operator
+
+     - to change the array elements frome one array to another
+...
+    ...variableName
+...    
++ rest parameter
+     + to handle function paramaters
+...
+
+...parameter
+
+...
+
+
++ Destructuring of array and objects
+
+
++ functions
+
+ - function with functionname
+ ...
+
+ function demo(x,y){
+      return x+y
+ }
+ demo()
+ ...
+
+ - Anonymous function
+ ...
+
+ let demo=function (x,y){
+      return x+y
+ }
+ ...
+
+ - arrow function
+ ...
+ let demo= (x,y)=>{
+      return x*y
+ }
+ demo(3,4)
+...
+
++ for-in
+    - to get index values of an array
++ for-of
+    - to get elements in an array
+
++ forEach() --> (ES-5)
++ map() --> (ES-6)        
+
+
+
+### DOM
+
+    - document object model
+    - document
+    - history
+    - window
+    - navigator
++ DOM methods
+    - `getElementById()`
+    - `getElementsByClassName()`
+    - `querySelector`
+    - `innerText`
+    - `textContent`
+    - `append`
+    - `appendChild`
+    - `innerHTML`
+    - `setAttribute()`
+    - `classList`
+    - `style`
+    - `src`    
+
+#### JSON
++ JavaScript object Notation
+     - to exchange information between application and server
+     
+
+...
+{
+     "name":"chaithanya reddy",
+     "salary":"6.5LPA",
+     "Designation":"mern developer",
+     "mobile":8328140790
+}     
+...
+
++ Ajax call or promises (fetch API) or axios
