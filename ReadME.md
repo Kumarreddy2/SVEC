@@ -402,3 +402,88 @@ Task
 ...
 
 + Ajax call or promises (fetch API) or axios
+
+
+
+#### ReactJS
+
+###### ReactJS Features
++ it is a library
++ it follows component based architechture
+    - Function component
+    - class component
+    - pure component
+    - higher order component
++ it provides virtual DOM
++ it provides JSX (javascript and XML)
++ Unidirectional data flow
++ single page Applications
+
+
++ props
+
+    - to press data from one component to another component we will use props
+    - props are immutable
+
+    + UnionBank
+       - AndhraBank(Functional)
+       - CorporationBank(class)
+
+    + states
+
+    - In react to maintain information we will use states
+    ...
+
+    constructor(){
+        super();
+        this.states={
+
+        }
+    }   
+    ...
+
+    - To update the state information in class component use 
+     'setState()' method
+
+    constructor(){
+        super();
+        this.state={
+
+        }
+    }
+    ...
+    + to update the state information in class component we have to follow component life cycle methods
+       - 'componentwillrecieveprops()'
+       - 'componentwillmount()'
+       + 'componentDidMount()'
+       - 'shouldcomponentupdate'
+       - 'componentwillupdate'
+       - 'componentDidupdate'
+       - 'componentwillunmount()'
+
+
+    ##### Hooks
+
+    + from react16.8 Hooks are introduced
+
+    - parent -child --> child2 --> child3
+
+
++ project Environment setup
+     - [download visualstudiocode]
+     - [Download NodeJS]
+     - Install nodejs and check versions of `node` and `npm`
+          - `node -v`
+          - `npm -v`
+     - `webpack` and `babel`
+     - `create-react-app`
+         - `npm install create-react-app`
+             - `create-react-app projectname`
+     - `npx create-react-app appname`        
+          
+ + Index.html
+ + index.js
+ + App.js
+     + indexpage
+         - nav.js
+         -                        
