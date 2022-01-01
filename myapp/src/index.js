@@ -1,21 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
- import '../States.css';
-// import App from './App';
+import FormRenderingInFunctions from './components/FormRenderingInFunctions';
+// import Home from './components/Home';
+// import FormRendering from './components/FormRendering';
+  import './index.css';
+//  import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import ListRendering from './components/ListRendering';
 // import Functional from './components/Functional';
 // import ClassComponent from './components/ClassComponents';
 // import UnionBank from './components/UnionBank';
-import StateinClassComponent from './components/StateinClassComponent';
+// import StateinClassComponent from './components/StateinClassComponent';
 // import StateinFunctionalComponent from './components/StateinFunctionalComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-     {/* {/* <App />
-    <Functional/>   */}
-     {/* <UnionBank />  */}
-    <StateinClassComponent/> 
+      {/* <App /> */}
+    {/* <Functional/>    */}
+         {/* <UnionBank />  */}
+    {/* <StateinClassComponent/>  */}
    {/* <stateinFunctionalComponent/> */}
+   {/* <FormRendering/> */}
+   <FormRenderingInFunctions/>
   </React.StrictMode>,
   document.getElementById('root')
 );

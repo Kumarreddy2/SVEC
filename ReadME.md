@@ -467,6 +467,31 @@ Task
     + from react16.8 Hooks are introduced
 
     - parent -child --> child2 --> child3
+    - 'useState()'
+    - 'useref'
+    - 'usecontent'
+
+
+    #### List rendering
+    ### Event handling & Form handling
+
+    - 'onchange'
+    - 'onsubmit'
+    - 'preventDefault()'
+
+
+    #### Routing in React
+
+    + To navigate(Route) from one component to another
+        - install react-router-dom package by using
+            - 'npm install react-router-dom'
+        - 'browserRouter'
+        - 'Route'
+        - 'link'
+        - 'routes'
+        - 'element'
+        - 'path'
+
 
 
 + project Environment setup
